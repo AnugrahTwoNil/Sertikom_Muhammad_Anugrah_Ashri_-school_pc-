@@ -27,12 +27,4 @@ form.addEventListener("submit", function(event) {
     }
 });
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 5,
-    breakpoints: {
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 4 }
-    },
-});
 
