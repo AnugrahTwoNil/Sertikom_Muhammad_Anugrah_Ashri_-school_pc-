@@ -13,6 +13,10 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: #FBFBFB;
+}
+
 #navbar {
 background: linear-gradient(135deg, #1B3C53, #3a7ca5);
 }
