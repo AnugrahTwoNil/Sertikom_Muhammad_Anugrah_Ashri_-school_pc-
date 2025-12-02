@@ -1,0 +1,463 @@
+:root {
+    --Primary1: #1B3C53;
+    --Secondary: #1B3C53;
+    --Text: 	#D2C1B6;
+    --Text2: white;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+background: linear-gradient(135deg, #102366, #3a7ca5);
+}
+
+.hero {
+    background-image: linear-gradient(rgba(1, 1, 1,0.8)), url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1544&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+    height: 88vh;
+}
+
+#typingtest {
+    min-height: 50px;
+}
+
+
+.hero h5 {
+    margin-bottom: 30px;
+    font-size: medium;
+}
+
+#navbar a:hover {
+    color: 	#34D18A;
+}
+
+#navbar i:hover {
+    color: 	#34D18A;
+}
+
+
+#btnHero {
+    background-color: #4BF3A1;;
+    transition: 0.3s ease;
+}
+
+#btnHero:hover {
+    border: 1px solid;
+    border-color: #34D18A;
+}
+
+.tentang {
+    background-color: var(--Primary1);
+    padding: 30px;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.tentang h2 {
+    color: white;
+    font-weight: bold;
+}
+.btn {
+    background-color: #4BF3A1;
+}
+
+.btn:hover {
+    border: 1px solid;
+    border-color: var(--Primary1);
+    background-color: #34D18A;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+.tentang p {
+    color: white;
+}
+
+.reviews h6 {
+    color: var(--Text);
+}
+
+.reviews {
+    margin-top: 100px;
+}
+
+#btnform {
+    background-color: #4BF3A1;
+    color: black;
+    border: 1px solid var(--Primary1);
+}
+
+
+
+.footer img {
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: white;
+}
+
+.footer {
+    background: linear-gradient(135deg, #1B3C53, #3a7ca5);
+    color: white;
+}
+
+.hero a {
+    text-decoration: none;
+    color: black;
+}
+
+.paket {
+    margin-top: 100px;
+}
+
+.paket ul li {
+    list-style: none;
+margin-left: -30px;
+margin-top: 10px;
+
+}
+#paketbtn {
+    background-color: #4BF3A1;
+    color: white;
+    border: 1px solid var(--Primary1); 
+}
+
+.proofing p {
+    font-size: small;
+}
+
+.proofing {
+    margin-top: 100px;
+}
+
+#website {
+    background-color: #4BF3A1;
+    color: black;
+    border: 1px solid var(--Primary1);
+    margin-top: auto;
+}
+
+#website:hover {
+    background-color: #34D18A;
+    color: black;
+    border: 1px solid white; 
+    transition: 0.3s ease;
+}
+
+#paketbtn:hover {
+    background-color: #34D18A;
+    color: black;
+    border: 1px solid white; 
+    transition: 0.3s ease;
+}
+
+.paket-card {
+    background-color: white;
+    height: 500px;
+}
+
+input[type="text"], input[type="email"]{
+    border-left: 4px solid var(--Primary1);
+}
+
+
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    box-shadow: 0 0 0;
+}
+
+.error {
+    color: 	#880808;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+#btnform:hover {
+    background-color: #34D18A;
+    transition: 0.3s ease;
+    border: 1px solid #E3E3E3;
+}
+
+#forumleft {
+    background: linear-gradient(135deg, #1B3C53, #3a7ca5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#forumleft li {
+    list-style: none;
+}
+
+.gradient-card {
+    background: linear-gradient(135deg, #1B3C53, #3a7ca5);
+    width: 480px;
+    height: 250px;
+    color: white;
+}
+
+.image-card {
+    margin-left: 80px;
+        background: linear-gradient(135deg, #1B3C53, #3a7ca5);
+    width: 770px;
+    height: 250px;
+}
+
+#layanan-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.paket a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.layanan a {
+    border: 1px solid var(--Primary1);
+    background-color: #4BF3A1;
+    color: black;
+}
+
+.layanan a:hover {
+    color: black;
+    border-color: white;
+    background-color: #34D18A;
+}
+
+.paket b {
+    color: var(--Primary1);
+}
+
+#forumright {
+    padding: 20px;
+    background-color: #E3E3E3;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#cardperusahaan {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#website-media {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 100%;
+    border: 2px solid var(--Primary1);
+}
+
+#website-media .card-img-top {
+    height: 200px;
+    object-fit: cover;  
+}
+
+.layanan p {
+    margin-bottom: -2px;
+    line-height: 2;
+}
+
+.layanan {
+    margin-top: 100px;
+}
+
+.layanan-image-1 {
+    max-height: 400px;
+    height: 100%;
+}
+
+#layanan-row1 {
+    margin-top: 50px;
+}
+
+#layanan-row {
+    margin-top: 100px;
+}
+
+#service {
+    margin-top: 100px;
+}
+
+.reviews img {
+    width: 100%;
+    max-height: 50px;
+    max-width: 100px;
+}
+
+#paketmedia {
+    border: 2px solid var(--Primary1);
+}
+
+@media screen and (max-width: 1440px){
+
+    .gradient-card {
+        width: 400px;
+        height: 300px;
+    }
+    .image-card {
+        width: 700px;
+        height: 300px;
+    }
+    #paketmedia {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:1200px) {
+    .layanan h3 {
+        margin-top: 20px;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto; 
+        padding: 4rem 0; 
+    }
+
+    .navbar-collapse {
+    text-align: center;
+    }
+    
+    .navbar-nav {
+    flex-direction: row;
+    justify-content: center;       
+    width: 100%;
+    gap: 1rem;
+    }
+
+    .hero img {
+        margin-top: 2rem;
+    }
+
+    .tentang {
+        margin-top: 3rem;
+    }
+
+    .gradient-card {
+        width: 350px;
+        height: 300px;
+        margin-left: 7px;
+    }
+    .image-card {
+        margin-top: 20px;
+        margin-left: 7px;
+        width: 350px;
+        height: 420px;
+    }
+
+    #paketmedia {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+
+    #website-media{
+        margin-top: 20px;
+    }
+
+    #layanan-image {
+        width: 300px;
+    }
+
+    .layanan a {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #layanan-image-1 {
+        margin-top: 20px;
+    }
+
+    #forumleft {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .konsultasi {
+        margin: 20px;
+    }
+
+    #forumright {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #34D18A      ;
+}
+
+/* MARQUEE */
+
+.marquee-text {
+    overflow: hidden;
+    --fade: 120px;
+    mask-image: linear-gradient(to right,
+        transparent 0,
+        black var(--fade),
+        black calc(100% - var(--fade)),
+        transparent 100%);
+}
+
+.marquee-text-track {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    animation: marquee-move-text 20s linear infinite;
+    width: max-content;
+}
+
+.marquee-wrap {
+    margin-top: 100px;
+    background: linear-gradient(135deg, #1B3C53, #3a7ca5);
+}
+
+.marquee-text img {
+    width: 100px;
+}
+
+.marquee-text h1 {
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.marquee-text-track:hover { 
+    cursor: default;
+}
+
+@keyframes marquee-move-text {
+    to { transform: translateX(-50%); }
+}
